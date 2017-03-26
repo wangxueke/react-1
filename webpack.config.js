@@ -3,8 +3,8 @@ var webpack = require('webpack');
 module.exports = {
     entry: './src/js/entry.js',
     output: {
-        path: './static/',
-        publicPath:'http://localhost:8080/static/',
+        path: '/static/',
+        publicPath:'./static/',
         filename: 'index.js'
     },
     module: {
